@@ -1,0 +1,102 @@
+@import 'bootstrap-icons';
+@import 'base/base';
+@import 'parts/header';
+@import 'parts/footer';
+@import 'pages/contacts';
+
+.post-image {
+  margin-bottom: 15px;
+  width: 100%;
+
+  img {
+    width: 100%;
+  }
+}
+
+.card {
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: stretch;
+    height: 350px;
+}
+
+.card-img-overlay {
+  background: rgba(0, 0, 0, .5);
+}
+
+.card-description {
+  display: block;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: #fff;
+  background: rgba(255, 255, 255, .3);
+  border-radius: 5px;
+
+  .card-title {
+    text-decoration: none;
+    font-size: 22px;
+    color: #fff;
+  }
+
+  &:hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 26px 31px;
+    color: #fff;
+  }
+}
+
+.post-meta a {
+  text-decoration: none;
+  color: #444;
+}
+
+.user-card {
+  text-align: center;
+
+  > * {
+    margin-bottom: 15px;
+  }
+}
+
+.user-avatar {
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+
+  img {
+    width: 100%;
+  }
+}
+
+.user-name {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.user-position {
+  font-size: 16px;
+  color: #777;
+}
+
+.user-description {
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+
+.order-button {
+    button {
+        padding: 10px 15px;
+        color: #0B90C4;
+        background: transparent;
+        border: 2px solid #0B90C4;
+    }
+}
